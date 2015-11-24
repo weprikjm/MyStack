@@ -69,7 +69,8 @@ public:
 
 	void CleanUp()
 	{
-	
+		if (data != NULL)
+			delete[] data;
 	}
 
 
