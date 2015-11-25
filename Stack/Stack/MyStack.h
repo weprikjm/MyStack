@@ -66,6 +66,10 @@ public:
 		return ret;
 	}
 
+	TYPE Peek()
+	{
+			
+	}
 
 	void CleanUp()
 	{
